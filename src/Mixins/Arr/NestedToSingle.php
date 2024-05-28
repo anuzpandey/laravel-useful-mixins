@@ -10,8 +10,6 @@ trait NestedToSingle
 {
     /**
      * Convert nested array to single array
-     *
-     * @return Closure
      */
     public function nestedToSingle(): Closure
     {
