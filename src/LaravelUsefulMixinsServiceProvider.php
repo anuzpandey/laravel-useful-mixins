@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace AnuzPandey\LaravelUsefulMixins;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use VendorName\Skeleton\Commands\SkeletonCommand;
+use AnuzPandey\LaravelUsefulMixins\Commands\LaravelUsefulMixinsCommand;
 
-class SkeletonServiceProvider extends PackageServiceProvider
+class LaravelUsefulMixinsServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
@@ -16,10 +16,10 @@ class SkeletonServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('skeleton')
+            ->name('laravel-useful-mixins')
             ->hasConfigFile()
             ->hasViews()
-            ->hasMigration('create_skeleton_table')
-            ->hasCommand(SkeletonCommand::class);
+            ->hasMigration('create_laravel-useful-mixins_table')
+            ->hasCommand(LaravelUsefulMixinsCommand::class);
     }
 }

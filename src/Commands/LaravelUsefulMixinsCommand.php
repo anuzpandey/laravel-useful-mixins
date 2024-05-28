@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace AnuzPandey\LaravelUsefulMixins\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LaravelUsefulMixinsCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-useful-mixins';
 
     public $description = 'My command';
 
