@@ -13,7 +13,6 @@ class LaravelUsefulMixinsServiceProvider extends PackageServiceProvider
         $package
             ->name('laravel-useful-mixins')
             ->hasConfigFile()
-            ->hasViews()
-            ->hasMigration('create_laravel-useful-mixins_table');
+            ->hasViews();
     }
 }
