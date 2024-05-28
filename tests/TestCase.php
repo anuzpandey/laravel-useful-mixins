@@ -2,9 +2,9 @@
 
 namespace AnuzPandey\LaravelUsefulMixins\Tests;
 
+use AnuzPandey\LaravelUsefulMixins\LaravelUsefulMixinsServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use AnuzPandey\LaravelUsefulMixins\LaravelUsefulMixinsServiceProvider;
 
 class TestCase extends Orchestra
 {
