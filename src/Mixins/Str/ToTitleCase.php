@@ -11,8 +11,6 @@ trait ToTitleCase
 {
     /**
      * Converts the string to title case with the given delimiter.
-     *
-     * @return Closure
      */
     public function toTitleCase(): Closure
     {
