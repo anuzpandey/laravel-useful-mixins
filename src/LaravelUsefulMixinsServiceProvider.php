@@ -10,8 +10,6 @@ class LaravelUsefulMixinsServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
-        $package
-            ->name('laravel-useful-mixins')
-            ->hasConfigFile();
+        $package->name('laravel-useful-mixins');
     }
 }
