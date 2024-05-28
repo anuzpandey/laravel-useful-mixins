@@ -2,6 +2,10 @@
 
 All notable changes to `laravel-useful-mixins` will be documented in this file.
 
+## Release 1.3.0 - 2024-05-28
+
+- Add `secureUrl` method to `URL` Facade.
+
 ## Release 1.2.0 - 2024-05-28
 
 - Add support function `nestedToSingle` for `Arr` Support Class.

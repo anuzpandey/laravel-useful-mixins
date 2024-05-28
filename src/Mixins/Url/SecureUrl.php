@@ -10,8 +10,6 @@ trait SecureUrl
 {
     /**
      * Convert url to a secure url
-     *
-     * @return Closure
      */
     public function secureUrl(): Closure
     {
