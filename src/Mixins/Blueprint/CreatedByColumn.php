@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace AnuzPandey\LaravelUsefulMixins\Mixins\Blueprint;
 
 use Closure;
-use Illuminate\Database\Schema\Blueprint;
 
 trait CreatedByColumn
 {
