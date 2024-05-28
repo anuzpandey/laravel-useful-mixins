@@ -1,10 +1,11 @@
 <?php
 
+declare(strict_types=1);
+
 namespace AnuzPandey\LaravelUsefulMixins;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use AnuzPandey\LaravelUsefulMixins\Commands\LaravelUsefulMixinsCommand;
 
 class LaravelUsefulMixinsServiceProvider extends PackageServiceProvider
 {
