@@ -8,6 +8,10 @@ use Closure;
 
 trait HumanReadableByteSize
 {
+    /**
+     * Convert bytes to human-readable byte size
+     * @return Closure
+     */
     public function humanReadableByteSize(): Closure
     {
         return static function (int $bytes, $decimals = 2) {
