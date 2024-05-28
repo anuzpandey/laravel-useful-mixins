@@ -12,7 +12,6 @@ class LaravelUsefulMixinsServiceProvider extends PackageServiceProvider
     {
         $package
             ->name('laravel-useful-mixins')
-            ->hasConfigFile()
-            ->hasViews();
+            ->hasConfigFile();
     }
 }
